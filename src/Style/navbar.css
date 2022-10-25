@@ -1,0 +1,85 @@
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px 10px  ;
+}
+.companylogo{
+    width: 5%;
+    height: 5%;
+    
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.option{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.logolist{
+    display: flex;
+    column-gap: 30px;
+    padding-right: 10px;
+}
+.desktopview{
+    display: flex;
+    list-style: none;
+    padding-top: 12px;
+    column-gap: 30px;
+}
+.nav_d{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500 bold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #000000;
+
+}
+
+.toggleBtn{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: none;
+    
+}
+.d-none{
+    display: none !important;
+}
+.togglecontent{
+    text-align: start;
+    list-style: none;
+    padding: 5%;
+    color:black;
+    display: none;
+    
+
+}
+.desktopView{
+    list-style: none;
+}
+
+
+@media screen and (max-width:900px) {
+    .toggleBtn{
+        display:block;
+    }
+    .desktopview{
+        display: none;
+    }
+    .togglecontent{
+        display: block;
+    }
+    
+    
+    
+}
+.btnm{
+    border: none;
+    background-color: transparent;
+    
+}
